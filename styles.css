@@ -1,0 +1,145 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+body{
+  background: #212523;
+  overflow-x: hidden;
+}
+/* nav */
+nav{
+  min-height: 60px;
+  display: flex;
+  justify-content: space-between;
+  max-width: 90%;
+  margin: 10px auto;
+  align-items: center;
+}
+
+.left-side{
+  position: relative;
+}
+
+.left-side img{
+  width: 50px;
+}
+
+.left-side h3{
+  color: white;
+  font-family: 'Lobster', sans-serif;
+  position: absolute;
+  margin-top: -44px;
+  margin-left: 6px;
+}
+
+.right-side{
+  display: flex;
+}
+
+.right-side a{
+  color: white;
+  text-decoration: none;
+  padding: 15px;
+  margin: 5px;
+}
+
+.right-side a.on{
+  background: #f54538;
+  border-radius: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+/* nav end */
+
+
+/* container1 */
+.container{
+  max-width: 90%;
+  margin: 35px auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.container .top{
+  justify-content: flex-start;
+}
+
+.container .top h1{
+  color: white;
+  font-family: 'Lobster', sans-serif;
+  font-size: 65px;
+}
+
+.container .mid{
+  display: flex;
+  justify-content: center;
+}
+
+.container .mid img{
+  margin-top: -70px;
+  width: 800px;
+}
+
+.container .bot{
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  align-items: flex-end;
+  color: white;
+  margin-top: -50px;
+}
+
+.container .bot p{
+  margin-top: 20px;
+  width: 260px;
+  margin-right: 10px;
+  font-size: 17.5px;
+}
+/* container end */
+@media (max-width: 825px){
+  .container{
+    text-align: center;
+  }
+  .container .mid img{
+    max-width: 100%;
+    margin-top: 20px;
+  }
+  .container .bot{
+    margin-top: 20px;
+    align-items: center;
+  }
+}
+
+@media (max-width: 610px){
+  .container{
+    text-align: center;
+  }
+  .container .bot{
+    margin-top: 40px;
+    align-items: center;
+  }
+}
+
+@media (max-width: 450px){
+  nav{
+    display: grid;
+    justify-content: center;
+    text-align: center;
+  }
+  nav .left-side h3{
+    left: 40%;
+  }
+  nav .right-side{
+    margin-top: 20px;
+  }
+  .container{
+    margin-top: 50px;
+  }
+  .container .top h1{
+    font-size: 50px;
+  }
+  .container .bot h1{
+    font-size: 30px;
+  }
+}
