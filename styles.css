@@ -111,16 +111,6 @@ nav{
   }
 }
 
-@media (max-width: 610px){
-  .container{
-    text-align: center;
-  }
-  .container .bot{
-    margin-top: 40px;
-    align-items: center;
-  }
-}
-
 @media (max-width: 450px){
   nav{
     display: grid;
