@@ -13,7 +13,7 @@ nav{
   display: flex;
   justify-content: space-between;
   max-width: 90%;
-  margin: 10px auto;
+  margin: 20px auto;
   align-items: center;
 }
 
@@ -56,7 +56,7 @@ nav{
 /* container1 */
 .container{
   max-width: 90%;
-  margin: 35px auto;
+  margin: 40px auto;
   display: flex;
   flex-direction: column;
 }
