@@ -6,6 +6,8 @@
 body{
   background: #212523;
   overflow-x: hidden;
+  max-width: 1500px;
+  margin: auto;
 }
 /* nav */
 nav{
